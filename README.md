@@ -10,4 +10,4 @@ i.If url matches an existing URL on the File service, return a JSON object of ty
 ii.If url does not match an existing URL on the File service, return Submission object with subNr = “no such file”.
 b.If sid does not match your university account name, return Submission object with subNr = “no such user”.
 
-3.3.To tests the submit operation, create three REST-specific sequence diagrams describing the execution of test cases with their concrete inputs and outputs covering cases a.i, a.ii and b in Task 2 above. You will have to include an invocation of upload() on the File service before being able to test your submit() operation.  
+3.To tests the submit operation, create three REST-specific sequence diagrams describing the execution of test cases with their concrete inputs and outputs covering cases a.i, a.ii and b in Task 2 above. You will have to include an invocation of upload() on the File service before being able to test your submit() operation.  
