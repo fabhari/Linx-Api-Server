@@ -1,0 +1,22 @@
+{
+  "Properties": [
+    {
+      "Id": "Source",
+      "Type": "Generated:LLkd",
+      "ValueUsage": "RuntimeRead",
+      "Value": "{\"Response200\":\"Student Number  found\", \"ResponseXXX\":\"202\"}",
+      "ValueType": "String"
+    },
+    {
+      "Id": "Target",
+      "Type": "Generated:LLkd",
+      "ValueUsage": "RuntimeWrite",
+      "Value": {
+        "Expression": "$.Result",
+        "CompiledExpression": "={0}",
+        "Type": "Generated:LLkd"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ]
+}

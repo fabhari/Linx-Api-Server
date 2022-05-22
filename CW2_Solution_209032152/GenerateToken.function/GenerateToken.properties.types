@@ -1,0 +1,16 @@
+[
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "GrwF",
+      "Properties": [
+        {
+          "Id": "Bca5",
+          "Name": "StudentdIdentifier",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  }
+]

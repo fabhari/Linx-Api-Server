@@ -1,0 +1,26 @@
+{
+  "Id": "knLS",
+  "Name": "Submission_Object",
+  "Properties": [
+    {
+      "Id": "DjMo",
+      "Name": "module",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "cPwb",
+      "Name": "assessment",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "sxCx",
+      "Name": "file_url",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "0TBo",
+      "Name": "file_data",
+      "Type": "Compiled:String"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "Properties": [
+    {
+      "Id": "Source",
+      "Type": "Generated:idKC",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "ParsedExpression": "{\"Response200\":{\"subNr\":{\"LinxExpression\":\"[PARSED]\"}, \"url\":{\"LinxExpression\":\"[PARSED]\"}, \"forAssessment\":{\"date\":{\"LinxExpression\":\"[PARSED]\"}, \"time\":{\"LinxExpression\":\"[PARSED]\"}, \"forModule\":{\"code\":{\"LinxExpression\":\"[PARSED]\"}, \"term\":{\"LinxExpression\":\"[PARSED]\"}}}}}",
+        "ExpressionPlaceholders": [
+          {
+            "typePath": [
+              "Response200",
+              "subNr"
+            ],
+            "expression": {
+              "Expression": "GenerateSubmissionNumber",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:String"
+            }
+          },
+          {
+            "typePath": [
+              "Response200",
+              "url"
+            ],
+            "expression": {
+              "Expression": "$.Parameters.url",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:String"
+            }
+          },
+          {
+            "typePath": [
+              "Response200",
+              "forAssessment",
+              "date"
+            ],
+            "expression": {
+              "Expression": "$.System.CurrentDateTime.Month + \"/\" + $.System.CurrentDateTime.Day + \"/\" + $.System.CurrentDateTime.Year",
+              "CompiledExpression": "={2}.Month+\"/\"+{1}.Day+\"/\"+{0}.Year",
+              "Type": "Compiled:String"
+            }
+          },
+          {
+            "typePath": [
+              "Response200",
+              "forAssessment",
+              "time"
+            ],
+            "expression": {
+              "Expression": "$.System.CurrentDateTime.Hour + \":\" + $.System.CurrentDateTime.Minute",
+              "CompiledExpression": "={1}.Hour+\":\"+{0}.Minute",
+              "Type": "Compiled:String"
+            }
+          },
+          {
+            "typePath": [
+              "Response200",
+              "forAssessment",
+              "forModule",
+              "code"
+            ],
+            "expression": {
+              "Expression": "$.Parameters.module",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:String"
+            }
+          },
+          {
+            "typePath": [
+              "Response200",
+              "forAssessment",
+              "forModule",
+              "term"
+            ],
+            "expression": {
+              "Expression": "$.Settings.term",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:String"
+            }
+          }
+        ]
+      },
+      "ValueType": "Linx.JsonExpression"
+    },
+    {
+      "Id": "Target",
+      "Type": "Generated:idKC",
+      "ValueUsage": "RuntimeWrite",
+      "Value": {
+        "Expression": "$.Result",
+        "CompiledExpression": "={0}",
+        "Type": "Generated:idKC"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ]
+}

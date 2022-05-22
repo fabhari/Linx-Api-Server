@@ -1,0 +1,29 @@
+{
+  "Properties": [
+    {
+      "Id": "ErrorMessage",
+      "Type": "Compiled:String",
+      "ValueUsage": "DesignTime",
+      "Value": null
+    },
+    {
+      "Id": "Function         ​",
+      "Type": "Compiled:String",
+      "ValueUsage": "DesignTime",
+      "Value": "string GenerateSubmissionNumber()\r\n{\r\n\tRandom r = new Random();\r\n \treturn r.Next(0, 100).ToString(); \r\n}"
+    },
+    {
+      "Id": "IsCodeValid",
+      "Type": "Compiled:Boolean",
+      "ValueUsage": "DesignTime",
+      "Value": true
+    },
+    {
+      "Id": "MethodBody",
+      "Type": "Compiled:String",
+      "ValueUsage": "DesignTime",
+      "Value": "Random r = new Random();\r\n \treturn r.Next(0, 100).ToString();"
+    }
+  ],
+  "Result": "Compiled:String"
+}

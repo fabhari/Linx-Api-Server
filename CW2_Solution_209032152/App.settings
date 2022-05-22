@@ -1,0 +1,50 @@
+[
+  {
+    "Id": "tNZm",
+    "Name": "BaseFolderPath",
+    "Type": "Compiled:String",
+    "Value": "C:/Temp/Linx/"
+  },
+  {
+    "Id": "zmxn",
+    "Name": "BaseURL",
+    "Type": "Compiled:String",
+    "Value": "http://localhost:8080/service"
+  },
+  {
+    "Id": "2xvt",
+    "Name": "sid",
+    "Type": "Compiled:String",
+    "Value": "hs503"
+  },
+  {
+    "Id": "Xqu8",
+    "Name": "fileserviceurl",
+    "Type": "Compiled:String",
+    "Value": "https://leicestersoa.api.linx.twenty57.net/fileService/file/"
+  },
+  {
+    "Id": "RXnD",
+    "Name": "code",
+    "Type": "Compiled:String",
+    "Value": "CO7214"
+  },
+  {
+    "Id": "5S9h",
+    "Name": "term",
+    "Type": "Compiled:String",
+    "Value": "Spring2020"
+  },
+  {
+    "Id": "5vok",
+    "Name": "sNr",
+    "Type": "Compiled:String",
+    "Value": "209032152"
+  },
+  {
+    "Id": "ehOD",
+    "Name": "assessment",
+    "Type": "Compiled:String",
+    "Value": "CW2"
+  }
+]

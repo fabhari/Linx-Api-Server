@@ -1,0 +1,22 @@
+{
+  "Properties": [
+    {
+      "Id": "Source",
+      "Type": "Generated:idKC",
+      "ValueUsage": "RuntimeRead",
+      "Value": "{\"Response200\":{\"subNr\":\"no such user\"}}",
+      "ValueType": "String"
+    },
+    {
+      "Id": "Target",
+      "Type": "Generated:idKC",
+      "ValueUsage": "RuntimeWrite",
+      "Value": {
+        "Expression": "$.Result",
+        "CompiledExpression": "={0}",
+        "Type": "Generated:idKC"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ]
+}
